@@ -1,0 +1,19 @@
+Margin i padding
+
+Obie właściwości używają wzoru {właściwość}{strona}-{rozmiar}, gdzie:
+
+właściwość to m dla margin, p dla padding
+strona to:
+t dla klas, które nadają margin-top lub padding-top
+b dla klas, które nadają margin-bottom lub padding-bottom
+s dla klas, które nadają margin-left lub padding-left
+e dla klas, które nadają margin-right lub padding-right
+x dla klas, które nadają właściwość *-left i *-right (czyli osi X – poziomej)
+y dla klas, które nadają właściwość *-top i *-bottom (czyli osi Y – pionowej)
+bez określonej strony (blank) – dla klas, które nadają margin lub padding ze wszystkich stron elementu
+rozmiar to pewna nadawana odgórnie przez Bootstrapa wielkość, domyślnie dostępne są wartości od 0 do 5 oraz auto.
+Jak poskładać to w całość? Spójrzmy na przykłady:
+
+aby element miał zerowy margin ze wszystkich stron, nadamy mu klasę m-0,
+aby element miał górny i dolny padding wielkości 3, nadamy mu klasę py-3,
+aby element miał górny margin wielkości 5, nadamy mu klasę mt-5.
