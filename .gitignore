@@ -136,3 +136,8 @@ dist
 *.pdf
 
 ./node_modules
+
+./images
+./module-2-assets
+/images
+/module-2-assets
