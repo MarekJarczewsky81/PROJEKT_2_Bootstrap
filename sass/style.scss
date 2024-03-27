@@ -1,3 +1,5 @@
+$background-color: #eff2f5;
+
 .carousel-inner, .carousel-item {
   height: 100vh;
 }
@@ -22,3 +24,8 @@
 h1 {
   color: white;
 }
+
+.cards3 section {
+  background: $background-color;
+}
+
